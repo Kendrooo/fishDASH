@@ -6,7 +6,7 @@ geopandas
 pandas
 xarray
 numpy
-matplotlib.pyplot
+matplotlib
 mapbox
 shapely
 sklearn
