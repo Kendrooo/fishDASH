@@ -445,11 +445,13 @@ poly_points = sorted(poly_points, key=sort_by_numeric_value)
 
 
 sector_points_dict = {}
-global all_gdf
+
 
 
 for index in range(len(poly_points)):
-        
+    
+    global all_gdf
+    
     # Get the PyDrive file object
     file_obj = drive.CreateFile({'id': poly_points[index]['id']})
 
