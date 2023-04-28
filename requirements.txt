@@ -13,4 +13,3 @@ sklearn
 alphashape
 pydrive2
 requests
-json
