@@ -450,8 +450,6 @@ sector_points_dict = {}
 
 for index in range(len(poly_points)):
     
-    global all_gdf
-    
     # Get the PyDrive file object
     file_obj = drive.CreateFile({'id': poly_points[index]['id']})
 
@@ -469,7 +467,6 @@ for index in range(len(poly_points)):
     else:
         all_gdf = pd.concat([all_gdf, gdf])
 
-print("nice")
 
 
 # In[31]:
@@ -866,31 +863,6 @@ if __name__ == '__main__':
     app.run_server(debug = True, port = 8051)
 
 
-# In[38]:
-
-
-cluster_group_area
-
-
-# In[39]:
-
-
-all_gdf
-
-
-# In[40]:
-
-
-cluster_group_area
-
-
-# In[41]:
-
-
-print(sector_points_dict[0])
-
-
-# In[ ]:
 
 
 
