@@ -2,10 +2,10 @@ plotly
 dash
 dash_bootstrap_components
 jupyter_dash
-geopandas as gpd
-pandas as pd
-xarray as xr
-numpy as np
+geopandas
+pandas
+xarray
+numpy
 matplotlib.pyplot
 mapbox
 shapely
