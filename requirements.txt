@@ -9,7 +9,7 @@ numpy
 matplotlib
 mapbox
 shapely
-sklearn
+scikit-learn
 alphashape
 pydrive2
 requests
