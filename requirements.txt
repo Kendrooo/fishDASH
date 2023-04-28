@@ -13,3 +13,4 @@ sklearn
 alphashape
 pydrive2
 requests
+gunicorn==19.7.1
